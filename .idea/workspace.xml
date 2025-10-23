@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4ca185c3-3ead-463d-ba54-94d21b9da87b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_notebook.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test_notebook.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +179,9 @@
       <workItem from="1761050776523" duration="1343000" />
       <workItem from="1761113547905" duration="10017000" />
       <workItem from="1761129011643" duration="2448000" />
-      <workItem from="1761156322333" duration="2568000" />
+      <workItem from="1761156322333" duration="6042000" />
+      <workItem from="1761169365900" duration="2574000" />
+      <workItem from="1761199898967" duration="9628000" />
     </task>
     <servers />
   </component>
@@ -187,8 +189,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Iota_Alpha_PS$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1761158876367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Iota_Alpha_PS$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1761153299337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iota_Alpha_PS$test_run.coverage" NAME="test_run Coverage Results" MODIFIED="1761218517637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Iota_Alpha_PS$train_model.coverage" NAME="train_model Coverage Results" MODIFIED="1761205681533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Iota_Alpha_PS$image_detector.coverage" NAME="image_detector Coverage Results" MODIFIED="1760973888945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
