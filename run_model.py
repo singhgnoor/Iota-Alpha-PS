@@ -50,6 +50,7 @@ if __name__ == '__main__':
                         for i in range(1, len(points)):
                             if points[i - 1] is None or points[i] is None:
                                 continue
+                            cv2.line(annotated_frame, points[i-1], points[i], (0, 255, 0), 2, cv2.LINE_AA)
             cv2.imshow("YOLOv8 Tracking", cv2.resize(annotated_frame, (640, 480)))
             out.write(annotated_frame)
 

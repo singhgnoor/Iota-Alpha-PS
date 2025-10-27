@@ -1,5 +1,4 @@
 """
-
         Solving the Alpha PS from Iota - The Guardian of Bake-o-Mocha
             Thing to figure out -
                 1. Yolo v8

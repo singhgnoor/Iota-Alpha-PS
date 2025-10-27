@@ -3,30 +3,10 @@ import shutil
 import random
 import glob
 
-# -----------------------------------------------------------------------------
-# --- CONFIGURATION: YOU MUST EDIT THESE 4 PATHS ---
-# -----------------------------------------------------------------------------
-
-# 1. Path to the folder where all your downloaded IMAGES are
-#    (e.g., 'C:/Users/YourName/Downloads/KaggleDataset/images')
 SOURCE_IMAGES_DIR = 'D:\Programming\Playground\datasets\FLY_MOS_Dataset'
-
-# 2. Path to the folder where all your downloaded LABELS (.txt files) are
-#    (e.g., 'C:/Users/YourName/Downloads/KaggleDataset/labels')
 SOURCE_LABELS_DIR = 'D:\Programming\Playground\datasets\FLY_MOS_Dataset'
-
-# 3. Path to the NEW dataset folder you want to create
-#    (This script will create this folder and all subfolders)
 DEST_DATASET_DIR = 'D:\Programming\Playground\datasets\Fly_Mos_Formatted'
-
-# 4. Split ratio for training (e.g., 0.8 means 80% train, 20% validation)
 TRAIN_SPLIT = 0.8
-
-
-# -----------------------------------------------------------------------------
-# --- END OF CONFIGURATION ---
-# -----------------------------------------------------------------------------
-
 
 def split_dataset(source_img_dir, source_label_dir, dest_dir, train_split):
     """
@@ -66,13 +46,8 @@ def split_dataset(source_img_dir, source_label_dir, dest_dir, train_split):
     file_pairs = []
     missing_labels = 0
     for img_path in image_files:
-        # Get the base filename without the extension (e.g., 'img_001')
         base_filename = os.path.splitext(os.path.basename(img_path))[0]
-
-        # Create the corresponding label file path
         label_path = os.path.join(source_label_dir, base_filename + '.txt')
-
-        # Check if the label file exists
         if os.path.exists(label_path):
             file_pairs.append((img_path, label_path))
         else:
